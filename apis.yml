@@ -1,8 +1,29 @@
 aid: asymchem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asymchem.png
 name: Asymchem
-description: 'Asymchem is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Asymchem (Asymchem Laboratories (Tianjin) Co., Ltd.) is a global contract
+  development and manufacturing organization (CDMO) with more than 25 years of experience
+  delivering integrated, cGMP-compliant services across the pharmaceutical value chain.
+  Its single-source model spans route scouting, process research and development,
+  scale-up, and commercial manufacturing for small molecules, peptides, oligonucleotides,
+  chemical macromolecules, biologics, and synthetic biology, and is known for green
+  chemistry and continuous flow chemistry. Headquartered in Morrisville, North Carolina
+  with major R&D and manufacturing operations in China, the U.S., and the U.K., Asymchem
+  employs roughly 9,000 people and is publicly listed (002821.SZ / 6821.HK). Surfaced
+  as a portfolio company of Hongshan and added to the API Evangelist network. Note:
+  "API" in Asymchem''s context refers to Active Pharmaceutical Ingredient manufacturing,
+  not a public web/developer API — the company publishes no developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/asymchem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Pharmaceuticals
+- CDMO
+- Contract Manufacturing
+- Drug Development
+- Biologics
+- Peptides
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.asymchem.com/
+- type: About
+  url: https://www.asymchem.com/about/company
+- type: Blog
+  url: https://www.asymchem.com/news
+- type: Support
+  url: https://www.asymchem.com/contact
+- type: DomainSecurity
+  url: security/asymchem-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
