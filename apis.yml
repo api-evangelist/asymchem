@@ -36,6 +36,9 @@ description: 'Asymchem (Asymchem Laboratories (Tianjin) Co., Ltd.) is a global c
   "API" in Asymchem''s context refers to Active Pharmaceutical Ingredient manufacturing,
   not a public web/developer API — the company publishes no developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/asymchem/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Note: 'API' in Asymchem's context refers to Active Pharmaceutical Ingredient manufacturing, not a public web/developer API — the company publishes no developer API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
